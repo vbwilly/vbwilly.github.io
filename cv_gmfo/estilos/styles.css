@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,600;0,700;1,400;1,500&display=swap');
+        
+body{
+    padding: 0;
+    font-family: 'IBM Plex Sans', serif;
+    text-align: center;
+    color:blue;
+    font-size: 16px;
+    padding:20px;
+    background-color:white;
+}
+h4{
+    font-size: small;
+    font-style: italic;
+}
+h3{
+    background-color:lightgray;
+}
+.programa {
+    /* Rounded border */
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.programa__image {
+    /* Rounded border */
+    border-radius: 50%;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.escuela {
+    /* Rounded border */
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.escuela__image {
+    /* Rounded border */
+    border-radius: 50%;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.subtitulo{
+    font-size: 20px;
+    font-style: italic;
+}
+.subtitulo2{
+    font-size: 15px;
+    font-style:oblique;
+}
+.fotografia{
+    max-width: 300px;
+    margin: 5px 0; 
+}
+.escudo{
+    max-width: 300px;
+    margin: 5px 0; 
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+
+

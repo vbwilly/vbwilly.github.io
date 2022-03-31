@@ -4,84 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+    <script src="https://masonry.desandro.com/masonry.pkgd.min.js"></script>
+    
     <title>Pinterest</title>
 </head>
-<body>
-    <div class="grid-container">
-<!--         <img class="grid-item" src="imagenes/1.jpg"/>
-        <img class="grid-item" src="imagenes/2.jpg"/>
-        <img class="grid-item" src="imagenes/3.jpg"/>
-        <img class="grid-item" src="imagenes/4.jpg"/>
-        <img class="grid-item" src="imagenes/5.jpg"/>
-        <img class="grid-item" src="imagenes/6.jpg"/>
-        <img class="grid-item" src="imagenes/7.jpg"/>
-        <img class="grid-item" src="imagenes/8.jpg"/>
-        <img class="grid-item" src="imagenes/9.jpg"/>
-        <img class="grid-item" src="imagenes/10.jpg"/>
-        <img class="grid-item" src="imagenes/11.jpg"/>
-        <img class="grid-item" src="imagenes/12.jpg"/>
-        <img class="grid-item" src="imagenes/13.jpg"/>
-        <img class="grid-item" src="imagenes/14.jpg"/>
-        <img class="grid-item" src="imagenes/15.jpg"/>
-        <img class="grid-item" src="imagenes/16.jpg"/>
-        <img class="grid-item" src="imagenes/17.jpg"/>
-        <img class="grid-item" src="imagenes/18.jpg"/>
-        <img class="grid-item" src="imagenes/19.jpg"/>
-        <img class="grid-item" src="imagenes/20.jpg"/>
-        <img class="grid-item" src="imagenes/21.jpg"/>
-        <img class="grid-item" src="imagenes/22.jpg"/>
-        <img class="grid-item" src="imagenes/23.jpg"/>
-        <img class="grid-item" src="imagenes/24.jpg"/>
-        <img class="grid-item" src="imagenes/25.jpg"/>
-        <img class="grid-item" src="imagenes/26.jpg"/>
-        <img class="grid-item" src="imagenes/27.jpg"/>
-        <img class="grid-item" src="imagenes/28.jpg"/>
-        <img class="grid-item" src="imagenes/29.jpg"/> -->
-        <img class="grid-item" src="https://picsum.photos/230/220.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/120.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/180.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/230.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/210.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/215.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/200.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/218.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/250.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/260.jpg">        
-        <img class="grid-item" src="https://picsum.photos/230/220.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/120.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/180.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/230.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/210.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/215.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/200.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/218.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/250.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/260.jpg">        
-        <img class="grid-item" src="https://picsum.photos/230/220.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/120.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/180.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/230.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/210.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/215.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/200.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/218.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/250.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/260.jpg">        
-        <img class="grid-item" src="https://picsum.photos/230/220.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/120.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/180.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/230.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/210.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/215.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/200.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/218.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/250.jpg">
-        <img class="grid-item" src="https://picsum.photos/230/260.jpg">
-        
-    </div>
+    <body>
+        <div class="contenedor">
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/260.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/300.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/350.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/400.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/450.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/200.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/250.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/310.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/320.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/380.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+            <div class="elemento">
+                <img class ="grid-item" src="https://picsum.photos/290/410.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum repudiandae alias sint tenetur reiciendis dolore commodi, aliquam esse non repellat quo qui libero labore vel voluptas corporis dolorum animi.</p>
+            </div>
+        </div>
 
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"> </script>
-    
-</body>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"> </script>
+        <script>
+            var elem = document.querySelector('.grid');
+            var msnry=new Masonry(elem,{itemSelector:'grid-item',columnWidth:200});
+        </script>
+
+        <script>
+            var elem = document.querySelector('.contenedor');
+            var msnry = new Masonry( elem, {
+            itemSelector: '.elemento'
+            });
+            var msnry = new Masonry( '.grid', {
+            });            
+        </script>
+    </body>
 </html>
+

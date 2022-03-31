@@ -1,6 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,600;0,700;1,400;1,500&display=swap');
-        
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100%;
+    margin: 15px auto;
+}
+
+.elemento{
+    width: 400px;
+    border: solid;
+    border-radius: 15px;
+    padding: auto;
+    background: #fff;
+    float: left;
+    margin-right: center;
+    margin-bottom: center;
+    box-shadow: 0 1px 2px, 0 rgba(0,0,0,0.22);
+    
+}
+
+.elemento p{
+    padding: 10px;
+    font-size: 13px;
+    height:30%;
+}
+
 body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+
     padding: 0;
     font-family: 'IBM Plex Sans', serif;
     text-align: center;
@@ -15,6 +48,13 @@ h4{
 }
 h3{
     background-color:lightgray;
+    display: flexS;
+    justify-content: center;
+    align-items: center;
+}
+#Fondogris{
+    background-color: lightgrey;
+    align-items: center;
 }
 .programa {
     /* Rounded border */
@@ -52,6 +92,7 @@ h3{
 .subtitulo2{
     font-size: 15px;
     font-style:oblique;
+    align-items: center;
 }
 .fotografia{
     max-width: 300px;
